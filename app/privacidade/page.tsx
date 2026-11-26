@@ -27,7 +27,7 @@ export default function Privacidade() {
         <li>Os dados dos orçamentos: itens, valores, observações e o nome do seu cliente, quando você informa.</li>
         <li>Os dados dos agendamentos: serviço, cliente, endereço, data e hora.</li>
         <li>Os pagamentos que você nos conta que recebeu: cliente, valor, data, forma de pagamento e a que se referem, para gerar os recibos e o resumo do que você recebeu.</li>
-        <li>O nome da sua empresa e o logo, se você enviar.</li>
+        <li>O nome da sua empresa, o logo e o seu e-mail, se você enviar, para aparecerem nos seus documentos.</li>
         <li>Dados da assinatura, quando você assina o plano pago.</li>
       </ul>
 
