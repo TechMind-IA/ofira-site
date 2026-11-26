@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Visual limpo: cinza-carvão e branco, muito espaço, sem texturas.
+   O PDF do orçamento segue a mesma paleta (backend/src/pdf.py). */
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-carvao: #1d1d1f;
+  --color-grafite: #3a3a3c;
+  --color-texto: #1d1d1f;
+  --color-suave: #6e6e73;
+  --color-linha: #d2d2d7;
+  --color-fundo: #f5f5f7;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-texto);
+}
+
+/* Parede de reboco: grão fino + manchas grandes e suaves (public/parede-*.svg) sobre cinza bem claro */
+.textura-parede {
+  background-color: #efefed;
+  background-image: url("/parede-grao.svg"), url("/parede-manchas.svg");
+  background-size: 300px 300px, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: 0 0, center;
+}
